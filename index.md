@@ -1,14 +1,21 @@
 
-###Scope of Work for Data Science Final Project
+###Scope of Work for Data Science Final Project<br><br>
 
-##Prepared by Group #2
-##Michael Kolor, michael_kolor@college.harvard.edu
-##Nikita Roy, nikita.roy@mail.utoronto.ca
+##Prepared by Group #2<br>
+##Michael Kolor, michael_kolor@college.harvard.edu<br>
+##Nikita Roy, nikita.roy@mail.utoronto.ca<br>
 
-**Project Statement and Background**
+**Project Statement and Background**<br><br>
 
-Every four years, the FIFA World Cup captivates millions of people worldwide with the entertaining game of football. With rise of data analytics, there has been an increased interest in modeling data to help forecast various logistical and competitive events for a high revenue generation. The FIFA ranking is used to help seed and construct draws for all major FIFA events including the world cup, but has often been criticized for flaws in its algorithms.  For example, teams such as Poland and Switzerland have achieved top eight seeding at the FIFA World Cup for playing limited numbers of friendlies, while teams such as the United States have questionably at times risen to strong rankings that perhaps overvalued the teams’ actual abilities.
-Our project will be exploring the following question: How important are FIFA ranking in helping predict the winners of the World Cup? We will addressing the FIFA ranking statement and looking at how the accurate of a measure the rankings are in predicting a team’s performance
+<br>Every four years, the FIFA World Cup captivates millions of people worldwide with the entertaining game of football. 
+<br>With rise of data analytics, there has been an increased interest in modeling data to help forecast various logistical and 
+<br>competitive events for a high revenue generation. The FIFA ranking is used to help seed and construct draws for all major 
+<br>FIFA events including the world cup, but has often been criticized for flaws in its algorithms.  For example, teams such as 
+<br>Poland and Switzerland have achieved top eight seeding at the FIFA World Cup for playing limited numbers of friendlies, while 
+<br>teams such as the United States have questionably at times risen to strong rankings that perhaps overvalued the teams’ actual 
+<br>abilities.
+
+<br>Our project will be exploring the following question: How important are FIFA ranking in helping predict the winners of the World Cup? We will addressing the FIFA ranking statement and looking at how the accurate of a measure the rankings are in predicting a team’s performance
 
 **Goals:**
 
