@@ -1,20 +1,20 @@
 
-Scope of Work for Data Science Final Project
+###Scope of Work for Data Science Final Project
 
-Prepared by Group #2
-Michael Kolor, michael_kolor@college.harvard.edu
-Nikita Roy, nikita.roy@mail.utoronto.ca
+##Prepared by Group #2
+##Michael Kolor, michael_kolor@college.harvard.edu
+##Nikita Roy, nikita.roy@mail.utoronto.ca
 
-Project Statement and Background
+**Project Statement and Background**
 
 Every four years, the FIFA World Cup captivates millions of people worldwide with the entertaining game of football. With rise of data analytics, there has been an increased interest in modeling data to help forecast various logistical and competitive events for a high revenue generation. The FIFA ranking is used to help seed and construct draws for all major FIFA events including the world cup, but has often been criticized for flaws in its algorithms.  For example, teams such as Poland and Switzerland have achieved top eight seeding at the FIFA World Cup for playing limited numbers of friendlies, while teams such as the United States have questionably at times risen to strong rankings that perhaps overvalued the teams’ actual abilities.
 Our project will be exploring the following question: How important are FIFA ranking in helping predict the winners of the World Cup? We will addressing the FIFA ranking statement and looking at how the accurate of a measure the rankings are in predicting a team’s performance
 
-Goals:
+**Goals:**
 
 In this project we will be using team and player’s data to construct the FIFA 2018 prediction model. We will be creating the first model that includes the FIFA Ranking, which is assumed to be an accurate representation of teams’ abilities.  For the second model, we will be exploring other variables to predict ranking for reach team, including potentially colonial history, GDP per capita, country enthusiasm, experience, age, team dynamics, and other potential factors.
 
-Literature Review
+**Literature Review**
 
 Zeileis, A., Leitner, C., & Hornik, K. (2018). Probabilistic forecasts for the 2018 FIFA World Cup based on the bookmaker consensus model. IDEAS Working Paper Series from RePEc,IDEAS Working Paper Series from RePEc, 2018.
 	
@@ -28,7 +28,7 @@ Bayesian Inference can be used to create a reliable model for World Cup predicti
 will be hard to out predict every human because some variation is random scatter and should not be included in the model (i.e. key injuries, family/personal issues, mental state)
 
 
-Available Resources/Data
+**Available Resources/Data**
 
 International Football Results from 1872
 •	Includes the scores for each match
@@ -45,7 +45,7 @@ Our plan to explore and clean the data is the following:
 2.	Look at how many team players play in big clubs vs small clubs and see how a team’s cumulative club experience has an impact on the performance 
 3.	Create feature variable of population enthusiasm to predict how a country’s support and enthusiasm impacts the team’s performance 
 
-Exploratory Data Analysis
+**Exploratory Data Analysis**
 
 
 Figure 1: Germany, Brazil, Portugal, and Argentina were forecasted to be the early favorites in the 2018 World Cup based on their FIFA Ranking
@@ -81,9 +81,9 @@ Figure 4: Distribution of Age and Overall Skill level of players in the world Cu
 
 
 
-Milestone 3: 
+###Milestone 3: 
 
-FIFA Project EDA
+**FIFA Project EDA**
 
 In order to guide the process of our feature engineering for the FIFA prediction model, we conducted a preliminary exploratory data analysis on international results gathered from 1873 to 2018. 
 
@@ -137,7 +137,7 @@ Based on the above visual analysis we can look at the following features to pred
 -	Difference in FIFA Ranking
 -	Whether the team is Home/Away or Neutral Ground
 
-Part 2: Multiple Regression: Preliminary Model
+**Part 2: Multiple Regression: Preliminary Model**
 
 The prediction of goal difference in matches was explored using a multiple regression model.  The dataset included all international matches taking place from 2015 until the FIFA World Cup. 
 However, the model performed quite poorly, requiring further future analysis and fitting to improve predictions.  The scatter matrix of the predictor set indicates that there is collinearity between predictors that needs to be handled appropriately.
@@ -167,7 +167,7 @@ However, the model performed quite poorly, requiring further future analysis and
 
 
 
-Part 3: Preliminary Logarithmic Model
+**Part 3: Preliminary Logarithmic Model**
 Based on the international results of matches since 1993, we fit a logistic regression model to predict the winner of the FIFA 2018 World Cup. Our model had a 55% accuracy on the train set data and a 43% accuracy on the test set. The following figure shows our model’s predicted results compared to the observed results in the test set. Based on the figure we can see that our model does a relatively good job in predicting wins. However, our model tends to overpredict a team’s loss instead of a draw. This leads to the inaccuracy in the predictions. In order to further develop the model, we will be looking at exploring each side’s playing strategy to see if whether a team is offensive or defensive has significance in the outcome of matches. 
 
 
