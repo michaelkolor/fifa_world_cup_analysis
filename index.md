@@ -1,6 +1,9 @@
 
-[<H1>Introduction</H1>](https://michaelkolor.github.io/fifa_world_cup_analysis/index.md)
+[<H1>Project Statement and Background</H1>](https://michaelkolor.github.io/fifa_world_cup_analysis/index.md)
 [<H1>Literature Review</H1>](https://michaelkolor.github.io/fifa_world_cup_analysis/literature_review.md)
+[<H1>Introduction and Eda</H1>](https://michaelkolor.github.io/fifa_world_cup_analysis/introduction_and_eda.md)
+[<H1>Models</H1>](https://michaelkolor.github.io/fifa_world_cup_analysis/models.md)
+[<H1>Results and Conclusion</H1>](https://michaelkolor.github.io/fifa_world_cup_analysis/results_and_conclusion.md)
 ### Scope of Work for Data Science Final Project<br><br>
 
 ## Prepared by Group #2<br>
